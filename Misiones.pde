@@ -52,3 +52,9 @@ void draw(){
     m.draw();
   }
 }
+
+void keyPressed(){
+  if(key == 's'){
+    save("frame.jpg");
+  }
+}
